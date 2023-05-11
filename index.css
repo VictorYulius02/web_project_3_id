@@ -1,0 +1,26 @@
+body {
+  background-color: #2A2C2F;
+}
+
+.logo {
+  position: relative;
+  margin: 0 auto;
+  width: 270px;
+  height: 70px;
+  /*left: 505px;*/
+  align-items: center;
+  top: 34px;
+  border: 1px solid white;
+}
+
+.lead {}
+
+.intro {}
+
+.photo-grid {}
+
+.places {}
+
+.cover {}
+
+.footer {}
