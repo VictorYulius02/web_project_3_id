@@ -1,23 +1,89 @@
+@import url(./fonts/Inter_Web/inter.css);
+
 body {
+  background-color: #2A2C2F;
+}
+
+.page {
+  position: relative;
+  width: 1280px;
   background-color: #2A2C2F;
 }
 
 .logo {
   position: relative;
   margin: 0 auto;
+  padding: 34px 0 90px;
   width: 270px;
   height: 70px;
-  /*left: 505px;*/
   align-items: center;
-  top: 34px;
   border: 1px solid white;
 }
 
-.lead {}
+.logo__square-vector {
+  position: relative;
+  background-color: #0278fe;
+  margin: 0 auto;
+  width: 32px;
+  height: 32px;
+  align-items: center;
+}
 
-.intro {}
+.logo__horizontal-vector {
+  position: absolute;
+  background-color: #2A2C2F;
+  top: 6px;
+  width: 32px;
+  height: 2px;
+}
 
-.photo-grid {}
+.logo__vertical-vector {
+  position: absolute;
+  background-color: #2A2C2F;
+  width: 2px;
+  height: 26px;
+  top: 6px;
+  left: 11px;
+}
+
+.logo__text {
+  position: absolute;
+  width: inherit;
+  margin: 0 auto;
+  bottom: 1.43%;
+  text-align: center;
+  font-family: inter;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.lead {
+  position: relative;
+  margin: 0 auto;
+  width: 984px;
+  height: 983px;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.intro {
+  position: relative;
+  margin-left: 148px;
+  padding: 92px 0 66px;
+  width: 883px;
+  height: 542px;
+  border: 1px solid white;
+}
+
+.photo-grid {
+  position: relative;
+  margin: 0 auto;
+  width: 1184px;
+  height: 442px;
+  border: 1px solid white;
+}
 
 .places {}
 
