@@ -182,10 +182,31 @@ body {
   margin: 0 auto;
   width: 1184px;
   height: 442px;
-  border: 1px solid white;
+  display: grid;
+  grid-template-columns: repeat(4 , 1fr);
+  grid-template-rows: 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  grid-gap: 16px;
+  /*border: 1px solid white;*/
 }
 
-.places {}
+.photo-grid__item {
+  margin: 0;
+  width: 284px;
+  height: 213px;
+  object-fit: contain;
+}
+
+.places {
+  position: relative;
+  margin: 0;
+  left: 145px;
+  padding: 92px 0;
+  width: 987px;
+  height: 4098px;
+  border: 1px solid white;
+}
 
 .cover {}
 
