@@ -274,6 +274,12 @@ body {
   border-radius: 4px;
 }
 
+.place__button:hover {
+  background-color: #0063d2;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
 .place__button_paragraph {
   position: relative;
   margin: 0;
@@ -401,6 +407,11 @@ body {
   z-index: 1;
 }
 
+.cover:hover .cover__overlay{
+  opacity: 0.8;
+  transition: opacity 1s ease-in-out;
+}
+
 .cover__group {
   position: absolute;
   max-width: 656px;
@@ -460,6 +471,12 @@ body {
   border-radius: 4px;
 }
 
+.cover__group_button:hover {
+  background-color: #0063d2;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
 .cover__group_button-paragraph {
   position: relative;
   margin: auto;
@@ -471,6 +488,9 @@ body {
   font-size: 18px;
   line-height: 22px;
   color: #FFFFFF;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
 }
 
 .footer {
@@ -478,7 +498,7 @@ body {
   margin: 0 auto;
   max-width: 189px;
   /*max-height: 32px;*/
-  border: 1px solid white;
+  /*border: 1px solid white;*/
 }
 
 .footer__copyright {
