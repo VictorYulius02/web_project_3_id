@@ -14,4 +14,4 @@ Teknologi yang digunakan dalam membuat website ini adalah **_html_** dan **_CSS_
 
 Proyek ini juga menguji beberapa teknik CSS antara lain grid, media query dan responsive website.
 
-**Address** 
+**Address** (https://victoryulius02.github.io/web_project_3_id/)
