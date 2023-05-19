@@ -1,4 +1,4 @@
-.cover__group_title {
+.cover__title {
   position: relative;
   margin: 0;
   max-width: 656px;
@@ -12,13 +12,13 @@
 }
 
 @media screen and (max-width: 768px) {
-  .cover__group_title {
+  .cover__title {
     height: 76px;
   }
 }
 
 @media screen and (max-width: 320px) {
-  .cover__group_title {
+  .cover__title {
     max-width: inherit;
     height: 35px;
     font-size: 2rem;

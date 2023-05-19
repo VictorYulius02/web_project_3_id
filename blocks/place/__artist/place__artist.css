@@ -1,4 +1,4 @@
-.place__website_artist {
+.place__artist {
   position: relative;
   margin: 0;
   padding-bottom: 26px;
@@ -11,7 +11,7 @@
   color: #ffffff;
 }
 
-.place:nth-of-type(4) .place__website_artist:nth-last-of-type(2) {
+.place:nth-of-type(4) .place__artist:nth-last-of-type(2) {
   padding: 0;
   height: 26px;
 }

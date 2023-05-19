@@ -1,4 +1,4 @@
-.cover__group_button {
+.cover__button {
   position: relative;
   margin: 0;
   bottom: 0;
@@ -18,7 +18,7 @@
   text-align: center;
 }
 
-.cover__group_button:hover {
+.cover__button:hover {
   background-color: #0063d2;
   transition: background-color 0.3s ease-in-out;
   cursor: pointer;
