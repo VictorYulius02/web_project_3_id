@@ -1,4 +1,4 @@
-.logo__square_horizontal-line {
+.logo__horizontal-line {
   position: absolute;
   background-color: #2A2C2F;
   width: inherit;
@@ -7,7 +7,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .logo__square_horizontal-line {
+  .logo__horizontal-line {
     width: 100%;
     height: 1.48px;
     top: 4.44px;
