@@ -1,0 +1,16 @@
+.logo {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 34px;
+  width: 270px;
+  height: 70px;
+  align-items: center;
+  /*border: 1px solid white;*/
+}
+
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 200px;
+    height: 51.85px;
+  }
+}

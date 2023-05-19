@@ -1,0 +1,27 @@
+.cover__group_title {
+  position: relative;
+  margin: 0;
+  max-width: 656px;
+  /*max-height: 152px;*/
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 106%;
+  text-align: center;
+  color: #ffffff;
+}
+
+@media screen and (max-width: 768px) {
+  .cover__group_title {
+    height: 76px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__group_title {
+    max-width: inherit;
+    height: 35px;
+    font-size: 2rem;
+    line-height: 109%;
+  }
+}

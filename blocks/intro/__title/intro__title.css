@@ -1,0 +1,28 @@
+.intro__title {
+  position: relative;
+  margin: 0;
+  padding-bottom: 40px;
+  max-width: inherit;
+  max-height: 116px;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 107%;
+  color: #ffffff;
+  /*border: 1px solid white;*/
+}
+
+@media screen and (max-width: 768px) {
+  .intro__title {
+    max-height: 232px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    max-width: inherit;
+    max-height: 175px;
+    font-size: 2rem;
+    line-height: 109%;
+  }
+}

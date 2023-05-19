@@ -1,0 +1,30 @@
+.place__image {
+  position: relative;
+  margin: 0;
+  grid-column: 1 / 2;
+  grid-row: 2 / 4;
+  width: 460px;
+  max-height: 460px;
+  object-fit: cover;
+}
+
+/*.place__image:first-child {
+  object-fit:cover;
+}*/
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    grid-column: 1;
+    grid-row: 3;
+    /*width: 320px;
+    height: 320px;*/
+    max-width: inherit;
+    max-height: 320px;
+  }
+}

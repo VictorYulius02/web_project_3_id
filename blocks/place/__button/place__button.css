@@ -1,0 +1,39 @@
+.place__button {
+  position: relative;
+  margin: 0;
+  grid-column: 1 / 2;
+  grid-row: 4;
+  max-width: 304px;
+  height: 48px;
+  align-items: flex-start;
+  /*padding: 13px 20px;*/
+  background-color: #0278fe;
+  border-radius: 4px;
+  align-self: flex-end;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.place__button:hover {
+  background-color: #0063d2;
+  transition: background-color 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .place__button {
+    grid-row: 3;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__button {
+    grid-column: 1;
+    grid-row: 7;
+    margin: 0 auto;
+  }
+}

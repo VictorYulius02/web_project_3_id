@@ -1,0 +1,32 @@
+.place {
+  position: relative;
+  margin: 0;
+  /*padding-top: 90px;*/
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4 , 1fr);
+  row-gap: 10px;
+  max-width: inherit;
+  height: 756px;
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    column-gap: 20px;
+  }
+
+  .place:first-of-type {
+    padding-top: 55px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7 , auto);
+    /*max-height: 1442px;*/
+    margin: auto;
+    height: initial;
+    column-gap: initial;
+  }
+}

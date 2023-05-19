@@ -1,0 +1,20 @@
+.cover__group {
+  position: absolute;
+  max-width: 656px;
+  /*max-height: 254px;*/
+  margin: auto;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+  /*border: 1px solid white;*/
+  z-index: 2;
+}
+
+@media screen and (max-width: 320px) {
+  .cover__group {
+    max-width: 288px;
+    height: 163px;
+    row-gap: 16px;
+  }
+}

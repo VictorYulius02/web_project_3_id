@@ -1,0 +1,17 @@
+.logo__square_vertical-line {
+  position: absolute;
+  background-color: #2A2C2F;
+  width: 2px;
+  height: 26px;
+  top: 6px;
+  left: 11px;
+}
+
+@media screen and (max-width: 320px) {
+  .logo__square_vertical-line {
+    width: 1.48px;
+    height: 19.26px;
+    top: 4.44px;
+    left: 8.15px
+  }
+}
