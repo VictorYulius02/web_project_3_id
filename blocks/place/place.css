@@ -7,7 +7,7 @@
   grid-template-rows: repeat(4 , 1fr);
   row-gap: 10px;
   max-width: inherit;
-  height: 756px;
+  /*height: 756px;*/
 }
 
 @media screen and (max-width: 768px) {

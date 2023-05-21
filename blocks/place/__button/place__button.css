@@ -1,11 +1,6 @@
 .place__button {
-  position: relative;
-  margin: 0;
-  grid-column: 1 / 2;
-  grid-row: 4;
-  max-width: 304px;
+  width: 304px;
   height: 48px;
-  align-items: flex-start;
   /*padding: 13px 20px;*/
   background-color: #0278fe;
   border-radius: 4px;
@@ -24,16 +19,5 @@
   cursor: pointer;
 }
 
-@media screen and (max-width: 768px) {
-  .place__button {
-    grid-row: 3;
-  }
-}
 
-@media screen and (max-width: 320px) {
-  .place__button {
-    grid-column: 1;
-    grid-row: 7;
-    margin: 0 auto;
-  }
-}
+

@@ -1,10 +1,21 @@
 .lead__image-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-top: 64px;
+}
+
+.lead__image-overlay::before {
   position: absolute;
-  width: inherit;
-  height: 615px;
-  bottom: 0;
-  background-color: #000;
+  content: "";
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  z-index: 2;
   mix-blend-mode: hue;
+  /*background-blend-mode: hue;*/
 }
 
 @media screen and (width: 768px) {

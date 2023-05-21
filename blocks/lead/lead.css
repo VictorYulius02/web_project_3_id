@@ -6,7 +6,7 @@
   flex-wrap: wrap;
   padding-top: 91px;
   width: 984px;
-  height: 983px;
+  /*height: 983px;*/
   align-items: center;
   /*border: 1px solid white;*/
 }
@@ -14,13 +14,13 @@
 @media screen and (max-width: 768px) {
   .lead {
     max-width: 100vw;
-    max-height: calc(232px + 72px + 480px + 36px);
+    /*max-height: calc(232px + 72px + 480px + 36px);*/
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead {
     width: 100vw;
-    max-height: calc(208px + 200px);
+    /*max-height: calc(208px + 200px);*/
   }
 }

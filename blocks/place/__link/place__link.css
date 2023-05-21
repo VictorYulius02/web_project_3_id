@@ -1,0 +1,22 @@
+.place__link {
+  position: relative;
+  margin: auto 0;
+  grid-column: 1 / 2;
+  grid-row: 4;
+  width: 304px;
+  height: 48px;
+}
+
+@media screen and (max-width: 768px) {
+  .place__link {
+    grid-row: 3;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    grid-column: 1;
+    grid-row: 7;
+    margin: 0 auto;
+  }
+}

@@ -3,14 +3,14 @@
   display: flex;
   flex-wrap: wrap;
   flex-direction: column-reverse;
-  /*row-gap: 80px;*/
+  row-gap: 80px;
   align-content: space-between;
   justify-content: space-between;
   margin: 0 auto;
   align-items: center;
   padding: 92px 0;
   max-width: 987px;
-  height: 4098px;
+  /*height: 4098px;*/
   /*border: 1px solid white;*/
 }
 
