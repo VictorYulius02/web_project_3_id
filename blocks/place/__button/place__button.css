@@ -19,5 +19,8 @@
   cursor: pointer;
 }
 
-
-
+@media screen and (min-width: 320px) and (max-width: 760px) {
+  .place__button {
+    width: calc(100vw - 32px);
+  }
+}

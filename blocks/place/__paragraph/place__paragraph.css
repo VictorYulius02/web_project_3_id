@@ -19,13 +19,13 @@
   grid-row: 2;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .place__paragraph {
     font-size: 15px;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 760px) {
   .place__paragraph {
     grid-column: 1;
     max-width: calc(100% - 2rem);

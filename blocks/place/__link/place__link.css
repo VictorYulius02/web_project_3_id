@@ -7,16 +7,17 @@
   height: 48px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1200px) {
   .place__link {
     grid-row: 3;
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 760px) {
   .place__link {
     grid-column: 1;
     grid-row: 7;
     margin: 0 auto;
+    width: calc(100vw - 32px);
   }
 }
