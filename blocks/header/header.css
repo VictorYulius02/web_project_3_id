@@ -1,4 +1,4 @@
-.logo {
+.header {
   position: relative;
   margin: 0 auto;
   padding-top: 34px;
@@ -12,7 +12,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .logo {
+  .header {
     width: 200px;
     height: 51.85px;
   }

@@ -1,4 +1,4 @@
-.logo__vertical-line {
+.header__logo-vertical {
   position: absolute;
   background-color: #2A2C2F;
   width: 2px;
@@ -8,7 +8,7 @@
 }
 
 @media screen and (max-width: 320px) {
-  .logo__vertical-line {
+  .header__logo-vertical {
     width: 1.48px;
     height: 19.26px;
     top: 4.44px;

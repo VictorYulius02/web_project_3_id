@@ -2,7 +2,7 @@
   margin: 0;
   max-width: 284px;
   height: 213px;
-  object-fit: contain;
+  object-fit: cover;
   box-sizing: border-box;
 }
 
@@ -13,9 +13,9 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 760px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
   .photo-grid__item {
-    max-width: 288px;
-    max-height: 216px;
+    min-width: 288px;
+    min-height: 216px;
   }
 }
